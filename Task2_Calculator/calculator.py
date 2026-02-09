@@ -42,7 +42,7 @@ for (text, row, col) in [
     create_button(text, row, col, lambda t=text: button_click(t))
 
 for (text, row, col) in [
-    ('/',1,3), ('',2,3), ('-',3,3), ('+',4,2)
+    ('/',1,3), ('*',2,3), ('-',3,3), ('+',4,2)
 ]:
     create_button(text, row, col, lambda t=text: button_click(t), bg="#FBBF47")
 
